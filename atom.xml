@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>斜阳</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://miaoxinwei.github.io/"/>
+  <updated>2017-04-21T01:33:29.000Z</updated>
+  <id>https://miaoxinwei.github.io/</id>
+  
+  <author>
+    <name>LICO</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello world</title>
+    <link href="https://miaoxinwei.github.io/2017/04/20/hello%20world/"/>
+    <id>https://miaoxinwei.github.io/2017/04/20/hello world/</id>
+    <published>2017-04-20T07:13:16.000Z</published>
+    <updated>2017-04-21T01:33:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello, this world！</p>
+<a id="more"></a>
+<p>没有啦~~~</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Hello, this world！&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
