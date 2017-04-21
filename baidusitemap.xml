@@ -4,28 +4,8 @@
 
     
   <url>
-    <loc>https://miaoxinwei.github.io/2017/04/20/hello%20world/</loc>
-    <lastmod>2017-04-21T06:15:03.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-04-20T07:13:16.000Z</pubTime>
-        
-        <tag>闲谈</tag>
-         
-         
-           
-             
-              <breadCrumb title="生活" url="https://miaoxinwei.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://miaoxinwei.github.io/2017/04/21/spring-%E9%9B%86%E6%88%90-websocket/</loc>
-    <lastmod>2017-04-21T03:35:05.000Z</lastmod>
+    <lastmod>2017-04-21T06:45:30.000Z</lastmod>
     <data>
         <display>
         <title>spring 集成 websocket</title>
@@ -45,6 +25,26 @@
     </url>
 
     
+    
+  <url>
+    <loc>https://miaoxinwei.github.io/2017/04/20/hello%20world/</loc>
+    <lastmod>2017-04-21T06:15:03.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-04-20T07:13:16.000Z</pubTime>
+        
+        <tag>闲谈</tag>
+         
+         
+           
+             
+              <breadCrumb title="生活" url="https://miaoxinwei.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
     
     
