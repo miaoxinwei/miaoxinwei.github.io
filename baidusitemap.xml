@@ -4,6 +4,50 @@
 
     
   <url>
+    <loc>https://miaoxinwei.github.io/2017/04/25/spring-%E9%9B%86%E6%88%90-httpclient/</loc>
+    <lastmod>2017-04-25T08:54:26.000Z</lastmod>
+    <data>
+        <display>
+        <title>spring 集成 httpclient</title>
+        <pubTime>2017-04-25T08:31:33.000Z</pubTime>
+        
+        <tag>Spring</tag>
+         
+        <tag>httpclient</tag>
+         
+         
+           
+             
+              <breadCrumb title="JAVA" url="https://miaoxinwei.github.io/categories/JAVA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://miaoxinwei.github.io/2017/04/21/spring-%E9%9B%86%E6%88%90-okhttp3/</loc>
+    <lastmod>2017-04-25T08:53:28.000Z</lastmod>
+    <data>
+        <display>
+        <title>spring 集成 okhttp3</title>
+        <pubTime>2017-04-21T09:13:26.000Z</pubTime>
+        
+        <tag>Spring</tag>
+         
+        <tag>okhttp3</tag>
+         
+         
+           
+             
+              <breadCrumb title="JAVA" url="https://miaoxinwei.github.io/categories/JAVA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://miaoxinwei.github.io/2017/04/25/%E4%B8%8D%E5%90%8C%E7%89%88%E6%9C%AC-2-5-3-1-web-xml%E6%96%87%E4%BB%B6%E7%9A%84schema%E5%A4%B4%E9%83%A8%E5%A3%B0%E6%98%8E/</loc>
     <lastmod>2017-04-25T07:12:45.000Z</lastmod>
     <data>
@@ -64,28 +108,6 @@
            
              
               <breadCrumb title="生活" url="https://miaoxinwei.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://miaoxinwei.github.io/2017/04/21/spring-%E9%9B%86%E6%88%90-okhttp3/</loc>
-    <lastmod>2017-04-21T10:27:25.000Z</lastmod>
-    <data>
-        <display>
-        <title>spring 集成 okhttp3</title>
-        <pubTime>2017-04-21T09:13:26.000Z</pubTime>
-        
-        <tag>Spring</tag>
-         
-        <tag>okhttp3</tag>
-         
-         
-           
-             
-              <breadCrumb title="JAVA" url="https://miaoxinwei.github.io/categories/JAVA/"/>
           
         </display>
     </data>

@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://miaoxinwei.github.io/2017/04/25/spring-%E9%9B%86%E6%88%90-httpclient/</loc>
+    
+    <lastmod>2017-04-25T08:54:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://miaoxinwei.github.io/2017/04/21/spring-%E9%9B%86%E6%88%90-okhttp3/</loc>
+    
+    <lastmod>2017-04-25T08:53:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://miaoxinwei.github.io/2017/04/25/%E4%B8%8D%E5%90%8C%E7%89%88%E6%9C%AC-2-5-3-1-web-xml%E6%96%87%E4%BB%B6%E7%9A%84schema%E5%A4%B4%E9%83%A8%E5%A3%B0%E6%98%8E/</loc>
     
     <lastmod>2017-04-25T07:12:45.000Z</lastmod>
@@ -26,13 +40,6 @@
     <loc>https://miaoxinwei.github.io/2017/04/20/hello%20world/</loc>
     
     <lastmod>2017-04-21T14:37:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://miaoxinwei.github.io/2017/04/21/spring-%E9%9B%86%E6%88%90-okhttp3/</loc>
-    
-    <lastmod>2017-04-21T10:27:25.000Z</lastmod>
     
   </url>
   
