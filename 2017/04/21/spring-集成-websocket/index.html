@@ -298,7 +298,7 @@
       <i class="fa fa-times-circle"></i>
     </span>
     <div class="local-search-input-wrapper">
-      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+      <input autocomplete="off"
              placeholder="搜索..." spellcheck="false"
              type="text" id="local-search-input">
     </div>
@@ -350,14 +350,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                spring 集成 websocket
-              
-            
-          </h1>
+          <h1 class="post-title" itemprop="name headline">spring 集成 websocket</h1>
         
 
         <div class="post-meta">
@@ -934,7 +927,10 @@
         .css('overflow', 'hidden');
       $('.search-popup-overlay').click(onPopupClose);
       $('.popup').toggle();
-      $('#local-search-input').focus();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
     }
 
     // search function;
