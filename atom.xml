@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://miaoxinwei.github.io/"/>
-  <updated>2017-04-25T08:54:26.000Z</updated>
+  <updated>2017-05-12T10:05:33.000Z</updated>
   <id>https://miaoxinwei.github.io/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spring 集成数据源 HiKariCP</title>
+    <link href="https://miaoxinwei.github.io/2017/05/12/spring-%E9%9B%86%E6%88%90%E6%95%B0%E6%8D%AE%E6%BA%90-HiKariCP/"/>
+    <id>https://miaoxinwei.github.io/2017/05/12/spring-集成数据源-HiKariCP/</id>
+    <published>2017-05-12T09:11:36.000Z</published>
+    <updated>2017-05-12T10:05:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p><em>摘自Github</em></p>
+<blockquote>
+<p><strong>Fast, simple, reliable. HikariCP is a “zero-overhead” production ready JDBC connection pool. At roughly 130Kb, the library is very light. Read about <a href="https://github.com/brettwooldridge/HikariCP/wiki/Down-the-Rabbit-Hole" target="_blank" rel="external">how we do it here</a>. </strong></p>
+</blockquote>
+<p><em>官网：<a href="https://github.com/brettwooldridge/HikariCP" target="_blank" rel="external">https://github.com/brettwooldridge/HikariCP</a></em></p>
+<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h4&gt;&lt;p&gt;&lt;em&gt;摘自Github&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fast, simple, reliable. HikariCP is a “zero-overhead” production ready JDBC connection pool. At roughly 130Kb, the library is very light. Read about &lt;a href=&quot;https://github.com/brettwooldridge/HikariCP/wiki/Down-the-Rabbit-Hole&quot;&gt;how we do it here&lt;/a&gt;. &lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;官网：&lt;a href=&quot;https://github.com/brettwooldridge/HikariCP&quot;&gt;https://github.com/brettwooldridge/HikariCP&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JAVA" scheme="https://miaoxinwei.github.io/categories/JAVA/"/>
+    
+    
+      <category term="Spring" scheme="https://miaoxinwei.github.io/tags/Spring/"/>
+    
+      <category term="HiKariCP" scheme="https://miaoxinwei.github.io/tags/HiKariCP/"/>
+    
+  </entry>
   
   <entry>
     <title>spring 集成 httpclient</title>
