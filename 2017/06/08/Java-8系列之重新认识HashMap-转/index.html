@@ -106,6 +106,7 @@
 <meta property="og:url" content="https://miaoxinwei.github.io/2017/06/08/Java-8系列之重新认识HashMap-转/index.html">
 <meta property="og:site_name" content="斜阳">
 <meta property="og:description" content="摘要HashMap是Java程序员使用频率最高的用于映射(键值对)处理的数据类型。随着JDK（Java Developmet Kit）版本的更新，JDK1.8对HashMap底层的实现进行了优化，例如引入红黑树的数据结构和扩容的优化等。本文结合JDK1.7和JDK1.8的区别，深入探讨HashMap的结构实现和功能原理。">
+<meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://tech.meituan.com/img/java-hashmap/java.util.map%E7%B1%BB%E5%9B%BE.png">
 <meta property="og:image" content="http://tech.meituan.com/img/java-hashmap/hashMap%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84%E5%9B%BE.png">
 <meta property="og:image" content="http://tech.meituan.com/img/java-hashmap/hashMap%E5%93%88%E5%B8%8C%E7%AE%97%E6%B3%95%E4%BE%8B%E5%9B%BE.png">
@@ -137,7 +138,7 @@
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
-    motion: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -234,22 +235,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
+            关于
           </a>
         </li>
       
@@ -264,12 +255,22 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            关于
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
           </a>
         </li>
       
@@ -581,21 +582,21 @@
         <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
   <div>Enjoy it ? Donate me ! <br/> 欣赏此文？求鼓励，求支持！<br/> &nbsp</div>
   <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>Donate</span>
+    <span>打赏</span>
   </button>
   <div id="QR" style="display: none;">
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="LICO WeChat Pay"/>
-        <p>WeChat Pay</p>
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="LICO 微信支付"/>
+        <p>微信支付</p>
       </div>
     
 
     
       <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/images/alipay.jpg" alt="LICO Alipay"/>
-        <p>Alipay</p>
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="LICO 支付宝"/>
+        <p>支付宝</p>
       </div>
     
 
@@ -720,14 +721,15 @@
 
       <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.jpg"
-               alt="LICO" />
-          <p class="site-author-name" itemprop="name">LICO</p>
-           
-              <p class="site-description motion-element" itemprop="description">开心工作 &nbsp &nbsp 认真生活</p>
           
+            <img class="site-author-image" itemprop="image"
+              src="/images/avatar.jpg"
+              alt="LICO" />
+          
+            <p class="site-author-name" itemprop="name">LICO</p>
+            <p class="site-description motion-element" itemprop="description">开心工作 &nbsp &nbsp 认真生活</p>
         </div>
+
         <nav class="site-state motion-element">
 
           
@@ -780,12 +782,7 @@
               <span class="links-of-author-item">
                 <a href="https://github.com/miaoxinwei" target="_blank" title="GitHub">
                   
-                    <i class="fa fa-fw fa-github"></i>
-                  
-                    
-                      GitHub
-                    
-                </a>
+                    <i class="fa fa-fw fa-globe"></i>GitHub</a>
               </span>
             
           
@@ -971,6 +968,10 @@
 
   <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
 
+
+
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
 
   
