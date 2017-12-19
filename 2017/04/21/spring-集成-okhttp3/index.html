@@ -407,7 +407,7 @@
 </ul>
 <p>OkHttp perseveres when the network is troublesome: it will silently recover from &gt; &gt;common connection problems. If your service has multiple IP addresses OkHttp will &gt;attempt alternate addresses if the first connect fails. This is necessary for IPv4+IPv6 &gt;and for services hosted in redundant data centers. OkHttp initiates new connections &gt;with modern TLS features (SNI, ALPN), and falls back to TLS 1.0 if the handshake fails.</p>
 <p>Using OkHttp is easy. Its request/response API is designed with fluent builders and immutability. It supports both synchronous blocking calls and async calls with callbacks.</p>
-<p>OkHttp supports Android 2.3 and above. For Java, the minimum requirement is 1.7.    —摘自 <a href="https://square.github.io/okhttp/" target="_blank" rel="external">https://square.github.io/okhttp/</a> </p>
+<p>OkHttp supports Android 2.3 and above. For Java, the minimum requirement is 1.7.    —摘自 <a href="https://square.github.io/okhttp/" target="_blank" rel="noopener">https://square.github.io/okhttp/</a> </p>
 </blockquote>
 <a id="more"></a>
 <h4 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h4><p>在pom.xml文件中增加以下依赖<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.squareup.okhttp3<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>okhttp<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">version</span>&gt;</span>3.6.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></div></pre></td></tr></table></figure></p>
@@ -694,7 +694,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#准备工作"><span class="nav-number">2.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#书写配置类"><span class="nav-number">3.</span> <span class="nav-text">书写配置类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#工具类"><span class="nav-number">4.</span> <span class="nav-text">工具类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#使用方法"><span class="nav-number">5.</span> <span class="nav-text">使用方法</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#准备工作"><span class="nav-number">2.</span> <span class="nav-text"><a href="#&#x51C6;&#x5907;&#x5DE5;&#x4F5C;" class="headerlink" title="&#x51C6;&#x5907;&#x5DE5;&#x4F5C;"></a>&#x51C6;&#x5907;&#x5DE5;&#x4F5C;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#书写配置类"><span class="nav-number">3.</span> <span class="nav-text"><a href="#&#x4E66;&#x5199;&#x914D;&#x7F6E;&#x7C7B;" class="headerlink" title="&#x4E66;&#x5199;&#x914D;&#x7F6E;&#x7C7B;"></a>&#x4E66;&#x5199;&#x914D;&#x7F6E;&#x7C7B;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#工具类"><span class="nav-number">4.</span> <span class="nav-text"><a href="#&#x5DE5;&#x5177;&#x7C7B;" class="headerlink" title="&#x5DE5;&#x5177;&#x7C7B;"></a>&#x5DE5;&#x5177;&#x7C7B;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#使用方法"><span class="nav-number">5.</span> <span class="nav-text"><a href="#&#x4F7F;&#x7528;&#x65B9;&#x6CD5;" class="headerlink" title="&#x4F7F;&#x7528;&#x65B9;&#x6CD5;"></a>&#x4F7F;&#x7528;&#x65B9;&#x6CD5;</span></a></li></ol></div>
             
 
           </div>
@@ -892,8 +892,6 @@
 
 
 
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 
 
 
