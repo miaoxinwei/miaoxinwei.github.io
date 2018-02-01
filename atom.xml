@@ -173,11 +173,11 @@
       <category term="JAVA" scheme="https://miaoxinwei.github.io/categories/JAVA/"/>
     
     
-      <category term="Spring" scheme="https://miaoxinwei.github.io/tags/Spring/"/>
-    
       <category term="web.xml" scheme="https://miaoxinwei.github.io/tags/web-xml/"/>
     
       <category term="servlet" scheme="https://miaoxinwei.github.io/tags/servlet/"/>
+    
+      <category term="Spring" scheme="https://miaoxinwei.github.io/tags/Spring/"/>
     
   </entry>
   
